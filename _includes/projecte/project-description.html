@@ -1,0 +1,22 @@
+<!-- Project description section -->
+<section>
+  <div class="container">
+    <div class="row">
+      {% for item in section.caracteristiques %}
+      <article class="post">
+
+        <header class="post-header">
+          <h1 class="post-title">{{ item.titol }}</h1>
+        </header>
+
+        <div class="post-content">
+          {{ item.descripcio }}
+        </div>
+
+      </article>
+      {% endfor %}
+<hr>
+      {{ section.content }}
+    </div>
+  </div>
+</section>

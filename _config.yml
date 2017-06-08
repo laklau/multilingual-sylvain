@@ -26,6 +26,13 @@ github_username:  jekyll
 
 # Where things are
 
+# Collections
+collections:
+  lorem-ipsum-project-en:
+    type: "section"
+  lorem-ipsum-project-fr:
+    type: "section"
+
 
 # Site defaults frontmatters
 defaults:
@@ -51,6 +58,14 @@ defaults:
       date: 2016-02-29 09:48:44 +0100
       categories: jekyll update
       lang: en
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "section"
+    values:
+      order: 1
+      include: projecte/hero.html
+      titol_seccio: "Projecte"
 
 
 # Build settings
