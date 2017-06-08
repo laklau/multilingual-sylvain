@@ -24,6 +24,35 @@ url: "http://multilingual-sylvain.netlify.com" # the base hostname & protocol fo
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Where things are
+
+
+# Site defaults frontmatters
+defaults:
+  -
+    scope:
+      path: "/" # an empty string here means all files in the project
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "page" # overrides previous default layout
+      title: "jekyll page"
+      permalink:
+      ref: ref
+      lang: en
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Mr. Hyde"
+      title: "jekyll post"
+      ref: ref
+      date: 2016-02-29 09:48:44 +0100
+      categories: jekyll update
+      lang: en
+
+
 # Build settings
 markdown: kramdown
 theme: minima
