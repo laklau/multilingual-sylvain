@@ -1,0 +1,20 @@
+---
+pages:
+- _lorem-ipsum-project-fr/3-descripcio.md
+hide_body: false
+fields:
+- name: order
+  label: Order
+  type: text
+  hidden: false
+  default: 1
+- name: include
+  label: Include
+  type: text
+  hidden: false
+  default: projecte/hero.html
+- name: titol_seccio
+  label: Titol seccio
+  type: text
+  hidden: false
+  default: Projecte

@@ -1,0 +1,38 @@
+---
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: Mr. Hyde
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: jekyll page
+- name: ref
+  label: Ref
+  type: text
+  hidden: false
+  default: ref
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 2016-02-29 08:48:44 +0000
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: jekyll update
+- name: lang
+  label: Lang
+  type: text
+  hidden: false
+  default: en
